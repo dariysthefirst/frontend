@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+.img-fluid {
+    height: auto;
+    width: 100%;
+}
+
 .container {
     background: rgb(14, 14, 15);
     background: linear-gradient(180deg, rgba(14, 14, 15, 1) 1%, rgba(74, 40, 0, 1) 61%, rgba(14, 14, 15, 1) 98%);
@@ -350,4 +355,29 @@ footer {
 
 .icons {
     margin: 0 80px;
+} 
+
+ @media screen and (max-width: 768px) {
+    .joystick{
+        left: 250px;
+        top: 0px;
+    }
+    .service{
+        max-width: 100%;
+    }
+    .item{
+        max-width: 140%;
+    }
+    .service-items{
+        max-width: 10%;
+    }
+    .sub-box{
+        max-width: 100%;
+    }
+    .input{
+        max-width: 100%;
+    }
+    .input-email{
+        max-width: 70%;
+    }
 }
